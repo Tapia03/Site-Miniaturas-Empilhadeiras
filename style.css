@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    background:#f5f5f5;
+}
+
+.logo{
+    width:120px;
+}
+
+.menu{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+.menu a:hover{
+    color:#f4b01d;
+}
