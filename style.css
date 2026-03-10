@@ -30,3 +30,11 @@ body{
 .menu a:hover{
     color:#f4b01d;
 }
+
+#contatos a,
+#contatos a:visited,
+#contatos a:hover,
+#contatos a:active {
+    color: black;
+    text-decoration: none;
+}
