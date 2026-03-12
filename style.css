@@ -17,13 +17,14 @@ body{
 }
 
 .logo{
-    width:120px;
+    width:100;
 }
 
 .menu{
     display:flex;
     list-style:none;
     gap:20px;
+    font-size: 18px;
 }
 
 .menu a{
@@ -61,12 +62,15 @@ body{
     text-align: justify;
 }
 
-.whatsapp{
+.botoes-contato{
     position: fixed;
     bottom: 20px;
     right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.whatsapp img{
-    width: 60px;
+.botoes-contato img{
+    width:60px;
 }
