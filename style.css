@@ -1,6 +1,7 @@
 body{
-    margin:0;
+    margin:2.5px;
     font-family:Arial, Helvetica, sans-serif;
+    background: rgb(214, 214, 214);
 }
 
 .header{
@@ -8,7 +9,11 @@ body{
     align-items:center;
     justify-content:space-between;
     padding:20px;
-    background:#f5f5f5;
+    background: #a0a0a0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+
 }
 
 .logo{
@@ -37,4 +42,31 @@ body{
 #contatos a:active {
     color: black;
     text-decoration: none;
+}
+
+#sobre {
+    border: 1px solid black;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 1px 2px;
+    text-align: center;
+    background: #a0a0a0;
+}
+
+#paragrafo_sobre {
+    text-align: justify;
+}
+
+#paragrafo_rental {
+    text-align: justify;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp img{
+    width: 60px;
 }
